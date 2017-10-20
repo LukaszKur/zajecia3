@@ -11,7 +11,8 @@ int dodaj(int a, int b)
 int main(void)
 {
 	int a=2, b=5;
-	char wybor='*';
+	char wybor;
+	scanf("%c", &wybor);
 	if(wybor =='*')
 	{
 	printf("Wynik mnozenia: %i\n", mnoz(a,b));
